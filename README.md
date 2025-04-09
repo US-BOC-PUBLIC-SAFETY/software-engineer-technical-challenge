@@ -1,0 +1,76 @@
+# software-engineering-technical-challenge
+
+This challenge involves implementing the missing parts of a To-do list app. You can search for the `TO-DO` content in the monorepo to find your objectives.
+
+## What's it about?
+
+- it's not about completing everything
+- it's about understanding how you...
+  - work
+  - communicate
+  - prioritize
+  - organize
+  - think
+  - deal with problems
+  - handle pressure
+
+## Challenge rules
+
+- you need to share your entire screen
+- you are allowed to ask as many questions as you'd like
+- you are allowed to use any resource you'd normally use during regular work, such as Google, StackOverflow, AI, etc
+- you are allowed to install any additional tools, packages, libraries, etc
+
+## Monorepo structure
+
+This is a [turbo](https://turbo.build/repo/docs) monorepo. There are two packages on which you will be working:
+
+- `./packages/api` - a [hapi](https://hapi.dev/) HTTP server
+- `./packages/ui` - a [vite](https://vitejs.dev/guide/) React SPA
+
+### Turbo commands
+
+At any moment, you can run `yarn turbo <COMMAND>`. The available commands are:
+
+- `dev`: starts the development server
+- `build`: builds the project
+- `type-check`: checks the project types with TSC
+- `lint`: lints the project with ESLint
+- `format-check`: checks the code format with Prettier
+- `format`: formats the code with Prettier
+- `migrate`: creates and seeds the database
+
+## Getting Started
+
+### Dependencies
+
+1. `yarn`
+
+   See https://classic.yarnpkg.com/lang/en/docs/install.
+
+### Booting up the development server
+
+1. Install project dependencies
+
+   ```
+   yarn
+   ```
+
+1. Create and seed the database
+
+   ```
+   yarn turbo migrate
+   ```
+
+1. Start the development environment:
+
+   ```
+   yarn turbo dev
+   ```
+
+## Tools and tips
+
+- You can use `npx prisma studio` from `./packages/api` to quickly inspect the database
+- You can use `postman` to interact with the `api` by using the collection located at `.packages/api/api.postman_collection.json`
+
+# Take a deep breath and just be yourself! Good luck! :-)
