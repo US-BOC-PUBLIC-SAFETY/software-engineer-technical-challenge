@@ -41,6 +41,13 @@ At any moment, you can run `yarn turbo <COMMAND>`. The available commands are:
 - `migrate`: creates and seeds the database
 
 ## Getting Started
+Create a new Codespace:
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/US-BOC-PUBLIC-SAFETY/software-engineer-technical-challenge)
+
+Once the Codespace is built, it will automatically install dependencies and boot up the development server for you.
+
+**IMPORTANT**: Once inside the Codespace, go to `Ports` and change `api (1984)`'s `Visibility` from `Private` to `Public`.
 
 ### Dependencies
 
